@@ -1,0 +1,23 @@
+[
+  {
+    "key": "api/unit-tests-demo/",
+    "flags": 0,
+    "value": ""
+  },
+  {
+    "key": "api/unit-tests-demo/spring.profiles.active",
+    "flags": 0,
+    "value": "ZGV2"
+  },
+  {
+    "key": "api/unit-tests-demo/spring.datasource.platform",
+    "flags": 0,
+    "value": "SDI="
+  },
+  {
+    "key": "api/unit-tests-demo/spring.datasource.url",
+    "flags": 0,
+    "value": "amRiYzpoMjpmaWxlOn4vdGVzdA=="
+  }
+
+]

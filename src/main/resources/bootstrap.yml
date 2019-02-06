@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: unit-tests-demo
+  cloud:
+    consul:
+      enabled: true
+      host: ${CONSUL_HOST}
+      port: ${CONSUL_PORT}
+      config:
+        enabled: true
+        prefix: api
+        default-context: unit-tests-demo
+    vault:
+      token: ${VAULT_SECURITY_TOKEN}
+      scheme: ${VAULT_SCHEME}
+      host: ${VAULT_HOST}
+      generic:
+        application-name: unit-tests-demo
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    env:
+      enabled: true
+  endpoints:
+    web:
+    exposure:
+      include: env, health, info, refresh

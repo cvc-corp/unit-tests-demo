@@ -1,0 +1,4 @@
+{
+  "name": "unit-tests-demo-policy",
+  "rules": "path \"secret/unit-tests-demo\" { capabilities = [\"read\"]}"
+}
